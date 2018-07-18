@@ -21,15 +21,17 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         Parent Easy = FXMLLoader.load(getClass().getResource("Easy4x4.fxml"));
+        Parent Medium = FXMLLoader.load(getClass().getResource("Medium6x6.fxml"));
+        Parent Hard = FXMLLoader.load(getClass().getResource("Hard8x8.fxml"));
         window = primaryStage;
         window.setTitle("Takuzu");
         //window.setScene(new Scene(root, 670, 376));
-        window.setScene(new Scene(Easy, 670, 376));
-        //EasyButton = new Button("Easy");
+        //window.setScene(new Scene(Easy, 300, 300));
+        //window.setScene(new Scene(Medium, 400, 400));
+        window.setScene(new Scene(Hard, 500, 500));
 
-        StackPane layout = new StackPane();
-        //layout.getChildren().add(EasyButton);
-        //Scene scene = new Scene(layout, 300, 250);
+       // StackPane layout = new StackPane();
+
 
         //window.setScene(scene);
         window.show();
