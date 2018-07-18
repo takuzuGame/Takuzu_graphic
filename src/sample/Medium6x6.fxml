@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.*?>
-<?import javafx.scene.text.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import java.lang.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-        <GridPane prefHeight="400.0" prefWidth="400.0">
+        <GridPane layoutX="-5.0" layoutY="98.0" prefHeight="400.0" prefWidth="401.0">
             <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -32,43 +29,58 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-                <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-                <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="75.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-                <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="4" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="5" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.rowIndex="4" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.rowIndex="5" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="103.0" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="3" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="2" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="1" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="4" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="5" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.rowIndex="1" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.rowIndex="2" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.rowIndex="3" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.rowIndex="4" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.rowIndex="5" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <JFXButton prefHeight="66.0" prefWidth="81.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " />
             </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="2.0" top="2.0" />
+         </padding>
         </GridPane>
+      <JFXButton buttonType="RAISED" layoutX="245.0" layoutY="10.0" prefHeight="34.0" prefWidth="139.0" style="-fx-background-color: #107c10#107c10;" text="Submit" textFill="WHITE" />
+      <JFXButton buttonType="RAISED" layoutX="245.0" layoutY="45.0" prefHeight="34.0" prefWidth="139.0" style="-fx-background-color: Red;" text="Reset" textFill="WHITE" />
+      <Label layoutX="14.0" layoutY="10.0" prefHeight="34.0" prefWidth="208.0" text="Score">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="28.0" prefHeight="34.0" prefWidth="218.0" text="_____________________________" textFill="#6b2b2b">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
     </children>
 </AnchorPane>
