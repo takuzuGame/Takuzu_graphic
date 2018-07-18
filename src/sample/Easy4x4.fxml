@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.paint.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.effect.*?>
@@ -28,22 +29,28 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(./brown.jpg);" GridPane.columnIndex="2" GridPane.rowIndex="1" />
             <Button mnemonicParsing="false" prefHeight="96.0" prefWidth="75.0" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="75.0" GridPane.columnIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " textFill="#fc0d0d" GridPane.columnIndex="3" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " text="0" textFill="#d90707" GridPane.columnIndex="2">
+               <font>
+                  <Font size="38.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " text="1" textFill="#2c0c0c" GridPane.columnIndex="1">
+               <font>
+                  <Font size="38.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" prefHeight="88.0" prefWidth="75.0" style="-fx-background-image: url(index.jpeg); " GridPane.columnIndex="1" GridPane.rowIndex="3" />
          </children>
       </GridPane>
    </children>

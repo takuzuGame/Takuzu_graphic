@@ -26,16 +26,20 @@ public class Main extends Application {
         window = primaryStage;
         window.setTitle("Takuzu");
         //window.setScene(new Scene(root, 670, 376));
-        //window.setScene(new Scene(Easy, 300, 300));
+        window.setScene(new Scene(Easy, 300, 300));
         //window.setScene(new Scene(Medium, 400, 400));
-        window.setScene(new Scene(Hard, 500, 500));
+        //window.setScene(new Scene(Hard, 500, 500));
 
        // StackPane layout = new StackPane();
+
+
 
 
         //window.setScene(scene);
         window.show();
     }
 
-
 }
+
+
+
