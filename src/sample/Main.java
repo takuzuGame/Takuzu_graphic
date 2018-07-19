@@ -19,16 +19,16 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("welcome.fxml"));
         Parent Easy = FXMLLoader.load(getClass().getResource("Easy4x4.fxml"));
         Parent Medium = FXMLLoader.load(getClass().getResource("Medium6x6.fxml"));
         Parent Hard = FXMLLoader.load(getClass().getResource("Hard8x8.fxml"));
         window = primaryStage;
         window.setTitle("Takuzu");
-        //window.setScene(new Scene(root, 670, 376));
-        window.setScene(new Scene(Easy, 265, 358));
-        window.setScene(new Scene(Medium, 395, 494));
-        window.setScene(new Scene(Hard, 529, 615));
+        window.setScene(new Scene(root, 653, 540));
+        //window.setScene(new Scene(Easy, 265, 358));
+        //window.setScene(new Scene(Medium, 395, 494));
+        //window.setScene(new Scene(Hard, 529, 615));
 
        // StackPane layout = new StackPane();
 
