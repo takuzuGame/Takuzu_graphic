@@ -9,21 +9,31 @@
    <children>
       <AnchorPane prefHeight="540.0" prefWidth="334.0" style="-fx-background-color: #cc1534;">
          <children>
-            <JFXButton layoutX="46.0" layoutY="83.0" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Easy" textFill="WHITE">
+            <JFXButton layoutX="56.0" layoutY="169.0" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Easy" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton layoutX="55.0" layoutY="236.0" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Medium" textFill="WHITE">
+            <JFXButton layoutX="55.0" layoutY="314.0" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Medium" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton layoutX="55.0" layoutY="399.0" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Hard" textFill="WHITE">
+            <JFXButton layoutX="55.0" layoutY="457.0" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Hard" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </JFXButton>
+            <Label layoutX="55.0" layoutY="30.0" prefHeight="44.0" prefWidth="230.0" text="Choose the game level" textFill="#f5ecec">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="52.0" prefHeight="29.0" prefWidth="239.0" text="_______________________________" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
          </children></AnchorPane>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="340.0" layoutY="45.0" prefHeight="58.0" prefWidth="305.0" text="Welcome to Takuzu" textFill="#cc1534">
          <font>
