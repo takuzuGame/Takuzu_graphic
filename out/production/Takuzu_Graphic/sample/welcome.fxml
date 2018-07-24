@@ -5,21 +5,21 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="653.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="653.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <AnchorPane prefHeight="540.0" prefWidth="334.0" style="-fx-background-color: #cc1534;">
          <children>
-            <JFXButton layoutX="56.0" layoutY="169.0" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Easy" textFill="WHITE">
+            <JFXButton fx:id="Easy" layoutX="56.0" layoutY="169.0" onAction="#OpenEasy" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Easy" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton layoutX="55.0" layoutY="314.0" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Medium" textFill="WHITE">
+            <JFXButton fx:id="Medium" layoutX="55.0" layoutY="314.0" onAction="#OpenMedium" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Medium" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton layoutX="55.0" layoutY="457.0" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Hard" textFill="WHITE">
+            <JFXButton fx:id="Hard" layoutX="55.0" layoutY="457.0" onAction="#OpenHard" prefHeight="44.0" prefWidth="230.0" style="-fx-border-color: white; -fx-border-radius: 20;" text="Hard" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font>
@@ -40,7 +40,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <JFXButton layoutX="400.0" layoutY="189.0" prefHeight="42.0" prefWidth="193.0" style="-fx-border-color: #cc1534; -fx-border-radius: 20;" text="How to play" textFill="#cc1534">
+      <JFXButton fx:id="howToPlay" layoutX="400.0" layoutY="189.0" onAction="#showDialog" prefHeight="42.0" prefWidth="193.0" style="-fx-border-color: #cc1534; -fx-border-radius: 20;" text="How to play" textFill="#cc1534">
          <font>
             <Font size="22.0" />
          </font>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<DialogPane fx:id="HowToDialog" contentText="HowToPlay" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="373.0" prefWidth="541.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <header>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="71.0" prefWidth="541.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" prefHeight="72.0" prefWidth="541.0" text="How to Play" textAlignment="CENTER" textFill="#cc1534">
+               <font>
+                  <Font name="Roboto" size="38.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+    </header>
+    <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="155.0" prefWidth="541.0">
+         <children>
+            <Label layoutX="47.0" layoutY="34.0" prefHeight="27.0" prefWidth="494.0" text="    autant de 1 et de 0 sur chaque ligne et sur chaque colonne " textFill="#cc1534">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="82.0" prefHeight="18.0" prefWidth="464.0" text="    pas plus de 2 chiffres identiques côte à côte" textFill="#cc1534">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="136.0" prefHeight="18.0" prefWidth="449.0" text="  2 lignes ou 2 colonnes ne peuvent être identiques" textFill="#cc1534">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Circle fill="#cc1534" layoutX="26.0" layoutY="47.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#cc1534" layoutX="26.0" layoutY="150.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#cc1534" layoutX="26.0" layoutY="96.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+         </children></AnchorPane>
+    </content>
+    <expandableContent>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+    </expandableContent>
+</DialogPane>
