@@ -5,9 +5,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
-
-import java.io.IOException;
 
 public class Controller {
     @FXML
@@ -32,6 +31,8 @@ public class Controller {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Easy4x4.fxml"));
             Parent Easy = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
+            Image icon = new Image(getClass().getResourceAsStream("icon.png"));
+            stage.getIcons().add(icon);
             stage.setTitle("Takuzu Easy Level");
             stage.setScene(new Scene(Easy, 265, 358));
             stage.show();
@@ -45,6 +46,8 @@ public class Controller {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Medium6x6.fxml"));
             Parent Medium = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
+            Image icon = new Image(getClass().getResourceAsStream("icon.png"));
+            stage.getIcons().add(icon);
             stage.setTitle("Takuzu Medium Level");
             stage.setScene(new Scene(Medium, 395, 494));
             stage.show();
@@ -58,8 +61,11 @@ public class Controller {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Hard8x8.fxml"));
             Parent Hard = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
+            Image icon = new Image(getClass().getResourceAsStream("icon.png"));
+            stage.getIcons().add(icon);
             stage.setTitle("Takuzu Medium Level");
             stage.setScene(new Scene(Hard, 529, 615));
+
             stage.show();
         }catch (Exception e){
             System.out.println("Sorry can't load the window");
