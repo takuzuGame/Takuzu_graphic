@@ -340,6 +340,7 @@ public class setPuzzle {
             }
         }
         return(p);
+
     }
 
     private static int verifCond(setPuzzle p, int i, int[] t) {
@@ -367,21 +368,6 @@ public class setPuzzle {
             p.tab[i][j]=l[j];
         }
         return(p);
-    }
-
-
-    public static void main(String[]args){
-        init6 m6 = new init6();
-        setPuzzle f, p;
-
-        p = Initialize(6);
-        p= intialPuzzle6(m6,p);
-        f= emptycel(p);
-        printPuzzle(p);
-        System.out.println("puzzle f");
-        printPuzzle(f);
-
-        //c =debut(c);
     }
 
     public static setPuzzle intialPuzzle8(init8 m, setPuzzle p) {

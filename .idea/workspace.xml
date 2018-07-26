@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/easyController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/easyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/hardController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/hardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/loose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/mediumController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/mediumController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/puzzle/init4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/puzzle/init6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/puzzle/init8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/puzzle/setPuzzle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/youLoose.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/youWin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/youWin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/loose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/youWin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/HowToPlay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/HowToPlay.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/HowToPlay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/HowToPlay.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/youWin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/youWin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/puzzle/init6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/puzzle/init6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,12 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="youWin.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="youWin.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/youWin.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jeu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/jeu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="246" column="10" lean-forward="true" selection-start-line="182" selection-start-column="8" selection-end-line="246" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -143,20 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setPuzzle.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="setPuzzle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6876">
-              <caret line="382" selection-start-line="382" selection-end-line="382" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="easyController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/easyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="104" selection-start-line="100" selection-start-column="8" selection-end-line="104" />
+            <state relative-caret-position="198">
+              <caret line="380" column="23" lean-forward="true" selection-start-line="380" selection-start-column="23" selection-end-line="380" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -185,6 +166,7 @@
       <find>Syste</find>
       <find>System</find>
       <find>intialize</find>
+      <find>initi</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -227,8 +209,9 @@
         <option value="$PROJECT_DIR$/src/sample/easyButtons.java" />
         <option value="$PROJECT_DIR$/src/sample/easyController.java" />
         <option value="$PROJECT_DIR$/src/sample/hardController.java" />
-        <option value="$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java" />
         <option value="$PROJECT_DIR$/src/sample/mediumController.java" />
+        <option value="$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java" />
+        <option value="$PROJECT_DIR$/src/sample/puzzle/init6.java" />
       </list>
     </option>
   </component>
@@ -484,7 +467,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122489000" />
+    <option name="totallyTimeSpent" value="124641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,7 +626,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Medium6x6.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/index.jpeg" />
     <entry file="file://$PROJECT_DIR$/src/sample/Hard8x8.fxml" />
@@ -746,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/puzzle/init6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -779,20 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/easyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="104" selection-start-line="100" selection-start-column="8" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6876">
-          <caret line="382" selection-start-line="382" selection-end-line="382" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/hardController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3600">
@@ -815,16 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/mediumController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/youLoose.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -838,6 +789,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jeu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="246" column="10" lean-forward="true" selection-start-line="182" selection-start-column="8" selection-end-line="246" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/mediumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/easyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="104" selection-start-line="100" selection-start-column="8" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/puzzle/init6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="380" column="23" lean-forward="true" selection-start-line="380" selection-start-column="23" selection-end-line="380" selection-end-column="23" />
         </state>
       </provider>
     </entry>
