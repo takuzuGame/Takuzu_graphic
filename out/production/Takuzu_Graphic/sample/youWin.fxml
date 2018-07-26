@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDialog?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXDialog />
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@youWin.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="5.0" layoutY="6.0" prefHeight="68.0" prefWidth="263.0" style="-fx-background-color: white;" text="You Win!">
+         <font>
+            <Font name="DejaVu Sans Mono Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="341.0" layoutY="21.0" prefHeight="37.0" prefWidth="114.0" style="-fx-background-color: white;" text="Score">
+         <font>
+            <Font name="Agency FB Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="ScoreLable" layoutX="441.0" layoutY="28.0" prefHeight="30.0" prefWidth="148.0" style="-fx-background-color: white;">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
