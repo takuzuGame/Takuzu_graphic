@@ -371,11 +371,11 @@ public class setPuzzle {
 
 
     public static void main(String[]args){
-        init8 m8 = new init8();
+        init6 m6 = new init6();
         setPuzzle f, p;
 
-        p = Initialize(8);
-        p= intialPuzzle8(m8,p);
+        p = Initialize(6);
+        p= intialPuzzle6(m6,p);
         f= emptycel(p);
         printPuzzle(p);
         System.out.println("puzzle f");

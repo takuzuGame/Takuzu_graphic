@@ -20,33 +20,32 @@ import java.util.ResourceBundle;
 
 
 public class mediumController implements Initializable {
-   /* private setPuzzle [] tabPuzz=new setPuzzle[2];
+    //Declaration
+    private setPuzzle [] tabPuzz = new setPuzzle[2];
     @FXML
     private  JFXButton mediumButton0,mediumButton1,mediumButton2,mediumButton3,mediumButton4,mediumButton5,mediumButton6,
             mediumButton7,mediumButton8,mediumButton9,mediumButton10,mediumButton11,mediumButton12,mediumButton13,mediumButton14,
             mediumButton15,mediumButton16,mediumButton17,mediumButton18,mediumButton19,mediumButton20,mediumButton21,mediumButton22,
             mediumButton23,mediumButton24,mediumButton25,mediumButton26,mediumButton27,mediumButton28,mediumButton29,mediumButton30,mediumButton31,
             mediumButton32,mediumButton33,mediumButton34,mediumButton35,mediumSubmit;
-    /*
-        private JFXButton [] mediumbutton ={mediumButton0,mediumButton1,mediumButton2,mediumButton3,mediumButton4,mediumButton5,mediumButton6,
-                mediumButton7,mediumButton8,mediumButton9,mediumButton10,mediumButton11,mediumButton12,mediumButton13,mediumButton14,
-                mediumButton15,mediumButton16,mediumButton17,mediumButton18,mediumButton19,mediumButton20,mediumButton21,mediumButton22,
-                mediumButton23,mediumButton24,mediumButton25,mediumButton26,mediumButton27,mediumButton28,mediumButton29,mediumButton30,mediumButton31,
-                mediumButton32,mediumButton33,mediumButton34,mediumButton35};
-        */
-    /*int counter;
+
+    int counter;
+
+
+
     public setPuzzle[] getTabPuzz() {
         return tabPuzz;
     }
-*/
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        /*JFXButton [] mediumbutton ={mediumButton0,mediumButton1,mediumButton2,mediumButton3,mediumButton4,mediumButton5,mediumButton6,
+        JFXButton [] mediumbutton ={mediumButton0,mediumButton1,mediumButton2,mediumButton3,mediumButton4,mediumButton5,mediumButton6,
                 mediumButton7,mediumButton8,mediumButton9,mediumButton10,mediumButton11,mediumButton12,mediumButton13,mediumButton14,
                 mediumButton15,mediumButton16,mediumButton17,mediumButton18,mediumButton19,mediumButton20,mediumButton21,mediumButton22,
                 mediumButton23,mediumButton24,mediumButton25,mediumButton26,mediumButton27,mediumButton28,mediumButton29,mediumButton30,mediumButton31,
                 mediumButton32,mediumButton33,mediumButton34,mediumButton35};
+
         setTabPuzz(defaultPuzzle());
         setPuzzle defaut = getTabPuzz()[0];
         counter = -1;
@@ -89,10 +88,9 @@ public class mediumController implements Initializable {
 
                 });
             }
-
-        }*/
+        }
     }
-/*
+
 
     public void setTabPuzz(setPuzzle[] tabPuzz) {
         this.tabPuzz = tabPuzz;
@@ -134,10 +132,9 @@ public class mediumController implements Initializable {
         tabPuzz[1]=p;
         return (tabPuzz);
     }
-    */
+
     @FXML
     public void Submit6x6(){
-        /*
         JFXButton [] mediumbutton ={mediumButton0,mediumButton1,mediumButton2,mediumButton3,mediumButton4,mediumButton5,mediumButton6,
                 mediumButton7,mediumButton8,mediumButton9,mediumButton10,mediumButton11,mediumButton12,mediumButton13,mediumButton14,
                 mediumButton15,mediumButton16,mediumButton17,mediumButton18,mediumButton19,mediumButton20,mediumButton21,mediumButton22,
@@ -180,11 +177,10 @@ public class mediumController implements Initializable {
                 System.out.println("Sorry can't load the window");
             }
         }
-*/
+
     }
     @FXML
     public void Reset6x6(){
-        /*
 
         JFXButton [] mediumbutton ={mediumButton0,mediumButton1,mediumButton2,mediumButton3,mediumButton4,mediumButton5,mediumButton6,
                 mediumButton7,mediumButton8,mediumButton9,mediumButton10,mediumButton11,mediumButton12,mediumButton13,mediumButton14,
@@ -192,7 +188,7 @@ public class mediumController implements Initializable {
                 mediumButton23,mediumButton24,mediumButton25,mediumButton26,mediumButton27,mediumButton28,mediumButton29,mediumButton30,mediumButton31,
                 mediumButton32,mediumButton33,mediumButton34,mediumButton35};
 
-        for (int i = 0; i <36 ; i++) {
+        for (int i = 0; i <35 ; i++) {
             mediumbutton[i].setText("");
             mediumbutton[i].setDisable(false);
             mediumbutton[i].setOpacity(1);
@@ -203,8 +199,8 @@ public class mediumController implements Initializable {
         counter = -1;
         for (int i = 0; i <6; i++) {
 
-            for (int j = 0; j <6 ; j++) {
-                final JFXButton button = mediumbutton[6*i+j];
+            for (int j = 0; j <6; j++) {
+                final JFXButton button = mediumbutton[6*i +j];
                 if (defaut.tab[i][j] == 1){
                     button.setText("1");
                     button.setFont(Font.font(28));
@@ -226,7 +222,6 @@ public class mediumController implements Initializable {
             }
         }
 
-    }*/
-}
+    }
 
 }

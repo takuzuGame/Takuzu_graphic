@@ -19,20 +19,18 @@ import java.util.ResourceBundle;
 
 public class easyController implements Initializable{
          private setPuzzle [] tabPuzz=new setPuzzle[2];
+         int counter=-1;
 
-        @FXML
-         private JFXButton easyButton0,easyButton1,easyButton2,easyButton3,easyButton4,easyButton5,easyButton6,easyButton7,easyButton8,easyButton9,
-                easyButton10,easyButton11,easyButton12,easyButton13,easyButton14,easyButton15,easySubmit,easyReset;
-
-    int counter=-1;
-
+    @FXML
+     private JFXButton easyButton0,easyButton1,easyButton2,easyButton3,easyButton4,easyButton5,easyButton6,easyButton7,easyButton8,easyButton9,
+            easyButton10,easyButton11,easyButton12,easyButton13,easyButton14,easyButton15,easySubmit;
 
 
 
     @Override
     //initialization of all the button of the 4x4 puzzle
     public void initialize(URL location, ResourceBundle resources) {
-        JFXButton easybutton [] = {easyButton0,easyButton1,easyButton2,easyButton3,easyButton4,easyButton5,easyButton6,easyButton7,easyButton8,easyButton9,
+         JFXButton easybutton [] = {easyButton0,easyButton1,easyButton2,easyButton3,easyButton4,easyButton5,easyButton6,easyButton7,easyButton8,easyButton9,
                 easyButton10,easyButton11,easyButton12,easyButton13,easyButton14,easyButton15};
 
         setTabPuzz(defaultPuzzle());
@@ -133,6 +131,7 @@ public class easyController implements Initializable{
     private void Submit4x4(){
         JFXButton easybutton [] = {easyButton0,easyButton1,easyButton2,easyButton3,easyButton4,easyButton5,easyButton6,easyButton7,easyButton8,easyButton9,
                 easyButton10,easyButton11,easyButton12,easyButton13,easyButton14,easyButton15};
+
         boolean isValid = true;
 
         String s;
@@ -174,6 +173,7 @@ public class easyController implements Initializable{
     private void Reset4x4(){
         JFXButton easybutton [] = {easyButton0,easyButton1,easyButton2,easyButton3,easyButton4,easyButton5,easyButton6,easyButton7,easyButton8,easyButton9,
                 easyButton10,easyButton11,easyButton12,easyButton13,easyButton14,easyButton15};
+
         for (int i = 0; i <16 ; i++) {
             easybutton[i].setText("");
             easybutton[i].setDisable(false);

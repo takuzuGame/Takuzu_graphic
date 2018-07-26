@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/puzzle/init4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/puzzle/init6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/puzzle/init8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/youLoose.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/youWin.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/Easy4x4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/Easy4x4.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/Medium6x6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/Medium6x6.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Easy4x4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Easy4x4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/Hard8x8.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Takuzu_Graphic/sample/Hard8x8.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Hard8x8.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Hard8x8.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Medium6x6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Medium6x6.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/easyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/easyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/hardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/hardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/mediumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/mediumController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/puzzle/zeroOneButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Takuzu_graphic$Main.ic" NAME="Main Coverage Results" MODIFIED="1532565904039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Takuzu_graphic$Main.ic" NAME="Main Coverage Results" MODIFIED="1532612280771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sample.*</FILTER>
     </SUITE>
   </component>
@@ -98,38 +88,15 @@
       <file leaf-file-name="mediumController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/mediumController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-580">
-              <caret line="182" column="2" selection-start-line="182" selection-start-column="2" selection-end-line="182" selection-end-column="2" />
+            <state relative-caret-position="183">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1925#1926#0" expanded="true" />
+                <element signature="e#1955#1956#0" expanded="true" />
+                <element signature="e#3475#3476#0" expanded="true" />
+                <element signature="e#3513#3514#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="easyController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/easyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hardController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/hardController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setPuzzle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="427" selection-start-line="427" selection-end-line="427" />
             </state>
           </provider>
         </entry>
@@ -137,11 +104,38 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="198">
               <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setPuzzle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="382" lean-forward="true" selection-start-line="382" selection-end-line="382" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="easyController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/easyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="104" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hardController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/hardController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="218" column="5" lean-forward="true" selection-start-line="184" selection-start-column="8" selection-end-line="218" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -151,8 +145,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -198,10 +192,12 @@
         <option value="$PROJECT_DIR$/src/sample/puzzle/chrono.java" />
         <option value="$PROJECT_DIR$/src/sample/youWin.fxml" />
         <option value="$PROJECT_DIR$/src/sample/youLoose.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/easyController.java" />
-        <option value="$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/Buttons.java" />
+        <option value="$PROJECT_DIR$/src/sample/easyButtons.java" />
+        <option value="$PROJECT_DIR$/src/sample/easyController.java" />
         <option value="$PROJECT_DIR$/src/sample/hardController.java" />
+        <option value="$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java" />
         <option value="$PROJECT_DIR$/src/sample/mediumController.java" />
       </list>
     </option>
@@ -222,7 +218,7 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -236,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,8 +265,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,7 +427,7 @@
       <workItem from="1532455913985" duration="1251000" />
       <workItem from="1532467301713" duration="27093000" />
       <workItem from="1532526267016" duration="21580000" />
-      <workItem from="1532568885664" duration="6172000" />
+      <workItem from="1532568885664" duration="11944000" />
     </task>
     <task id="LOCAL-00001" summary="Link all the window with the welcome scene">
       <created>1532419982476</created>
@@ -447,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532457066210</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish Easy Puzzle 4x4">
+      <created>1532604605712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532604605712</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115155000" />
+    <option name="totallyTimeSpent" value="120927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,27 +466,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32669982" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3251634" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.38426626" side_tool="true" weight="0.3137255" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.3265306" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3260212" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.61573374" visible="true" weight="0.21227197" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.61573374" visible="true" weight="0.21078432" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49880287" weight="0.25980392" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49880287" weight="0.32843137" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49880287" weight="0.32352942" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5714286" weight="0.29513344" />
-      <window_info anchor="right" id="Database" order="8" weight="0.3290469" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5714286" visible="true" weight="0.20877458" />
+      <window_info anchor="right" id="Database" order="10" weight="0.3290469" />
       <window_info id="Structure" order="1" sideWeight="0.42857143" side_tool="true" weight="0.24060151" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24803768" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.2473525" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
@@ -495,19 +499,21 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Changes" order="7" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Profiler" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="10" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.2473525" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6169194" visible="true" weight="0.31509122" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61573374" visible="true" weight="0.21078432" />
       <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24960753" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Profiler" order="9" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -515,25 +521,23 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3830806" side_tool="true" weight="0.32786885" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.38426626" side_tool="true" weight="0.3137255" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32669982" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="10" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49880287" weight="0.25980392" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32810047" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49880287" weight="0.32843137" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5714286" weight="0.29513344" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32932332" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3260212" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49880287" weight="0.32352942" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5714286" visible="true" weight="0.20877458" />
+      <window_info anchor="right" id="Database" order="10" weight="0.3290469" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="1" sideWeight="0.42857143" side_tool="true" weight="0.24060151" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
     </layout-to-restore>
   </component>
@@ -575,15 +579,29 @@
     <MESSAGE value="Adding Fxml files" />
     <MESSAGE value="Link all the window with the welcome scene" />
     <MESSAGE value="setZeroOne for 4x4 puzzle" />
-    <option name="LAST_COMMIT_MESSAGE" value="setZeroOne for 4x4 puzzle" />
+    <MESSAGE value="Finish Easy Puzzle 4x4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Easy Puzzle 4x4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/sample/mediumController.java</url>
+          <line>41</line>
+          <properties class="sample.mediumController" method="initialize">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/bin/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/scene/image/Image.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Medium6x6.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/index.jpeg" />
@@ -732,22 +750,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Hard8x8.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="82">
+          <caret line="78" column="30" lean-forward="true" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="40" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/easyButtons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="427" selection-start-line="427" selection-end-line="427" />
+        <state relative-caret-position="108">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="198">
           <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -757,24 +778,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/easyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+        <state relative-caret-position="146">
+          <caret line="104" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/puzzle/setPuzzle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="382" lean-forward="true" selection-start-line="382" selection-end-line="382" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/hardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="324">
+          <caret line="218" column="5" lean-forward="true" selection-start-line="184" selection-start-column="8" selection-end-line="218" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/Initializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/mediumController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-580">
-          <caret line="182" column="2" selection-start-line="182" selection-start-column="2" selection-end-line="182" selection-end-column="2" />
+        <state relative-caret-position="183">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#3475#3476#0" expanded="true" />
+            <element signature="e#3513#3514#0" expanded="true" />
           </folding>
         </state>
       </provider>
