@@ -35,6 +35,7 @@ public class Controller {
             stage.getIcons().add(icon);
             stage.setTitle("Takuzu Easy Level");
             stage.setScene(new Scene(Easy, 265, 358));
+            stage.setResizable(false);
             stage.show();
         }catch (Exception e){
             System.out.println("Sorry can't load the window");
@@ -50,6 +51,8 @@ public class Controller {
             stage.getIcons().add(icon);
             stage.setTitle("Takuzu Medium Level");
             stage.setScene(new Scene(Medium, 395, 494));
+            stage.setResizable(false);
+            stage.setResizable(false);
             stage.show();
         }catch (Exception e){
             System.out.println("Sorry can't load the window");
@@ -65,6 +68,7 @@ public class Controller {
             stage.getIcons().add(icon);
             stage.setTitle("Takuzu Medium Level");
             stage.setScene(new Scene(Hard, 529, 615));
+            stage.setResizable(false);
 
             stage.show();
         }catch (Exception e){

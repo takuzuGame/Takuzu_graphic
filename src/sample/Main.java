@@ -26,6 +26,7 @@ public class Main extends Application  {
         window.getIcons().add(icon);
         window.setTitle("Takuzu");
         window.setScene(new Scene(root, 653, 540));
+        window.setResizable(false);
 
 
         window.show();
