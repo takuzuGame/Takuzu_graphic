@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- this file is the design maker of  the You lose  window -->
+
 <?import com.jfoenix.controls.JFXDialog?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>

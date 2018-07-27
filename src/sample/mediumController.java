@@ -1,3 +1,7 @@
+/*
+ * this file is the controller of the medium level of Takuzu Game that includes the buttons and their functionality
+ * */
+
 package sample;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

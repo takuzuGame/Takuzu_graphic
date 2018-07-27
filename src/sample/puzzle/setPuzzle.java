@@ -1,3 +1,7 @@
+/*
+this file  is the puzzle generator  that generates a default puzzle to begin with and a complete one for testing
+for all levels
+* */
 package sample.puzzle;
 
 public class setPuzzle {
@@ -291,15 +295,6 @@ public class setPuzzle {
 
     }
 
-    public static void printPuzzle(setPuzzle p){
-        for (int i = 0; i <p.size ; i++) {
-            for (int j = 0; j <p.size; j++) {
-                System.out.print(p.tab[i][j]+" ");
-            }
-            System.out.println();
-        }
-
-    }
     public static setPuzzle intialPuzzle6(init6 m, setPuzzle p) {
         int [] t=new int[14];
         int u;
@@ -411,5 +406,7 @@ public class setPuzzle {
         }
         return(p);
     }
+    public static void main (String []args){
 
+    }
 }

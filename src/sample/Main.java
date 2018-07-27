@@ -1,10 +1,14 @@
+/*
+this is the main file the execute the main window which is  the welcome window.
+ */
+
+
 package sample;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
@@ -17,7 +21,9 @@ public class Main extends Application  {
     public static void main(String[] args) {
         launch(args);
     }
-
+/*
+display the  welcome window
+*/
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("welcome.fxml"));

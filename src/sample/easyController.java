@@ -1,3 +1,7 @@
+
+/*
+* this file is the controller of the easy level of Takuzu Game that includes the buttons and their functionality
+* */
 package sample;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -16,6 +20,7 @@ import javafx.scene.paint.Paint;
 import javafx.scene.text.Font;
 import java.net.URL;
 import java.util.ResourceBundle;
+
 
 public class easyController implements Initializable{
          private setPuzzle [] tabPuzz=new setPuzzle[2];
@@ -201,6 +206,7 @@ public class easyController implements Initializable{
                 }else if (defaut.tab[i][j]==0){
                     button.setText("0");
                     button.setFont(Font.font(28));
+                    button.setTextFill(Paint.valueOf("gray"));
                     button.setStyle("-fx-background-color: white;-fx-border-color: darkred;");
                     button.setOpacity(0.9);
                     counter++;

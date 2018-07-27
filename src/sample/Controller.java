@@ -1,5 +1,8 @@
-package sample;
+/*
+* this file is the controller of the main window that manipulate all the window to pup up
+* */
 
+package sample;
 import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
