@@ -112,7 +112,7 @@ public class mediumController implements Initializable {
             button.setOpacity(0.9);
         }else {
             button.setText("");
-            button.setStyle("-fx-background-color: #cc1534;-fx-border-color: darkred;");
+            button.setStyle("-fx-background-color: white;-fx-border-color: darkred;");
             button.setOpacity(1);
             counter--;
         }
