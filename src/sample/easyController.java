@@ -44,18 +44,18 @@ public class easyController implements Initializable{
                     button.setText("1");
                     button.setFont(Font.font(28));
                     button.setTextFill(Paint.valueOf("white"));
+                    button.setStyle("-fx-background-color: gray;-fx-border-color: darkred");
                     counter++;
                     button.setDisable(true);
-                    button.setTextFill(Paint.valueOf("black"));
                     button.setOpacity(0.9);
                 }else if (defaut.tab[i][j]== 0){
                     button.setText("0");
                     button.setFont(Font.font(28));
-                    button.setTextFill(Paint.valueOf("white"));
+                    button.setTextFill(Paint.valueOf("gray"));
+                    button.setStyle("-fx-background-color: white ;-fx-border-color: darkred;");
                     button.setOpacity(0.9);
                     counter++;
                     button.setDisable(true);
-                    button.setTextFill(Paint.valueOf("black"));
 
                 }else{
                     button.setText("");
@@ -86,15 +86,18 @@ public class easyController implements Initializable{
             button.setText("1");
             button.setFont(Font.font(28));
             button.setTextFill(Paint.valueOf("white"));
+            button.setStyle("-fx-background-color: #cc1534;-fx-border-color: darkred;");
             button.setOpacity(0.9);
             counter++;
         }else if (button.getText().equals("1")){
             button.setText("0");
             button.setFont(Font.font(28));
-            button.setTextFill(Paint.valueOf("white"));
+            button.setTextFill(Paint.valueOf("#cc1534"));
+            button.setStyle("-fx-background-color: white;-fx-border-color: darkred;");
             button.setOpacity(0.9);
         }else {
             button.setText("");
+            button.setStyle("-fx-background-color: #cc1534;-fx-border-color: darkred;");
             button.setOpacity(1);
             counter--;
         }
@@ -190,20 +193,21 @@ public class easyController implements Initializable{
                 if (defaut.tab[i][j] == 1){
                     button.setText("1");
                     button.setFont(Font.font(28));
-                    button.setTextFill(Paint.valueOf("black"));
+                    button.setTextFill(Paint.valueOf("white"));
+                    button.setStyle("-fx-background-color: gray;-fx-border-color: darkred;");
                     button.setOpacity(0.9);
                     counter++;
                     button.setDisable(true);
                 }else if (defaut.tab[i][j]==0){
                     button.setText("0");
                     button.setFont(Font.font(28));
-                    button.setTextFill(Paint.valueOf("black"));
+                    button.setStyle("-fx-background-color: white;-fx-border-color: darkred;");
                     button.setOpacity(0.9);
                     counter++;
                     button.setDisable(true);
                 }else{
                     button.setText("");
-
+                    button.setStyle("-fx-background-color: white;-fx-border-color: darkred;");
                 }
 
 

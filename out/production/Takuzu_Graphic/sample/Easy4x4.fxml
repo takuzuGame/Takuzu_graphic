@@ -25,22 +25,22 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-            <JFXButton fx:id="easyButton1" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="1" />
-            <JFXButton fx:id="easyButton0" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" />
-            <JFXButton fx:id="easyButton2" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="2" />
-            <JFXButton fx:id="easyButton3" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="3" />
-            <JFXButton fx:id="easyButton7" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <JFXButton fx:id="easyButton6" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <JFXButton fx:id="easyButton5" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <JFXButton fx:id="easyButton4" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.rowIndex="1" />
-            <JFXButton fx:id="easyButton8" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.rowIndex="2" />
-            <JFXButton fx:id="easyButton11" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-            <JFXButton fx:id="easyButton10" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <JFXButton fx:id="easyButton9" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <JFXButton fx:id="easyButton12" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.rowIndex="3" />
-            <JFXButton fx:id="easyButton13" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <JFXButton fx:id="easyButton14" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <JFXButton fx:id="easyButton15" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: #cc1534; -fx-border-color: white;" text=" " textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <JFXButton fx:id="easyButton1" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="1" />
+            <JFXButton fx:id="easyButton0" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" />
+            <JFXButton fx:id="easyButton2" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="2" />
+            <JFXButton fx:id="easyButton3" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="3" />
+            <JFXButton fx:id="easyButton7" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <JFXButton fx:id="easyButton6" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <JFXButton fx:id="easyButton5" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <JFXButton fx:id="easyButton4" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.rowIndex="1" />
+            <JFXButton fx:id="easyButton8" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.rowIndex="2" />
+            <JFXButton fx:id="easyButton11" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <JFXButton fx:id="easyButton10" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <JFXButton fx:id="easyButton9" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <JFXButton fx:id="easyButton12" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.rowIndex="3" />
+            <JFXButton fx:id="easyButton13" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <JFXButton fx:id="easyButton14" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <JFXButton fx:id="easyButton15" prefHeight="66.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: darkred;" text=" " textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3" />
             </children>
          <padding>
             <Insets bottom="5.0" left="5.0" right="2.0" top="2.0" />
