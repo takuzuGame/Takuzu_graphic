@@ -53,7 +53,7 @@ public class Controller {
             Image icon = new Image(getClass().getResourceAsStream("icon.png"));
             stage.getIcons().add(icon);
             stage.setTitle("Takuzu Medium Level");
-            stage.setScene(new Scene(Medium, 395, 494));
+            stage.setScene(new Scene(Medium, 396, 487));
             stage.setResizable(false);
             stage.setResizable(false);
             stage.show();
@@ -70,7 +70,7 @@ public class Controller {
             Image icon = new Image(getClass().getResourceAsStream("icon.png"));
             stage.getIcons().add(icon);
             stage.setTitle("Takuzu Medium Level");
-            stage.setScene(new Scene(Hard, 529, 615));
+            stage.setScene(new Scene(Hard, 531, 615));
             stage.setResizable(false);
 
             stage.show();
